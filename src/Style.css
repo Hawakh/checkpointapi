@@ -1,0 +1,27 @@
+.navbar {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar h2,
+  .navbar h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .navbar button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: lightgray;
+  }
